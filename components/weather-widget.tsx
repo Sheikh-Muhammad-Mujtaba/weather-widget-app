@@ -188,8 +188,8 @@ export default function WeatherWidget() {
     };
 
     return (
-        <div className={`${isDarkMode ? "bg-black text-white" : "bg-white text-black"} flex justify-center items-center h-screen`}>
-            <Card className={`w-full max-w-md mx-auto text-center ${weather ? getBackgroundClass(weather.description) : ""}`}>
+        <div className={`${isDarkMode ? "bg-black text-white" : "bg-white text-black"} flex justify-center items-start mt-10 h-screen`}>
+            <Card className={`w-full max-w-md mx-auto text-center flex flex-col items-center ${weather ? getBackgroundClass(weather.description) : ""}`}>
                 <CardHeader>
                     <CardTitle>Weather Widget</CardTitle>
                     <CardDescription>
@@ -197,7 +197,7 @@ export default function WeatherWidget() {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <form onSubmit={handleSearch} className="flex flex-col items-center gap-4">
+                <form onSubmit={handleSearch} className="flex flex-col items-center w-full max-w-md mx-auto gap-4">
                         <div className="flex gap-2 mt-4">
                             <input
                                 type="text"
