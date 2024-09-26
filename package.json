@@ -19,7 +19,8 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "weather-widget-app": "file:"
   },
   "devDependencies": {
     "@types/node": "^20",
