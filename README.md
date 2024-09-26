@@ -17,6 +17,7 @@ A simple weather widget application that allows users to check the current weath
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/Sheikh-Muhammad-Mujtaba/weather-widget-app.git
+    
     cd weather-widget-app
     ```
 
